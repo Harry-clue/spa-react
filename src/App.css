@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

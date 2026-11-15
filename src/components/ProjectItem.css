@@ -1,0 +1,45 @@
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.delete-btn {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.delete-btn:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.project-info h3 {
+  font-size: 22px;
+  letter-spacing: -0.2px;
+  margin: 0;
+  color: var(--text-h);
+}
+
+.project-info p {
+  font-size: 16px;
+  margin: 0;
+  color: var(--text);
+}
